@@ -33,67 +33,55 @@
                 <p>This is a template for a simple marketing or informational website. It includes a large callout
                     called a jumbotron and three supporting pieces of content. Use it as a starting point to create
                     something more unique.</p>
-                <div class="container" align='center'>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
+                <div class="container" alignment='center'>
+                    <form id="form" action=''  method="POST">
+                        <!-- CSRF token for security-->
+                        {% csrf_token %}
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button1"
+                            value="1">
+                        <label class="form-check-label" for="radio_button1">
                             Business News
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button2"
+                            value="2">
+                        <label class="form-check-label" for="radio_button2">
+                            Market News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button3"
+                            value="3">
+                        <label class="form-check-label" for="radio_button1">
+                            India News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button4"
+                            value="4">
+                        <label class="form-check-label" for="radio_button2">
+                            South Asia News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button5"
+                            value="5">
+                        <label class="form-check-label" for="radio_button1">
                             World News
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            Business News
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                            World News
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            Business News
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                            World News
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                            value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                            Business News
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                            World News
-                        </label>
-                    </div>
-
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button6"
+                            value="6">
+                        <label class="form-check-label" for="radio_button2">
+                            Technology News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button7"
+                            value="7">
+                        <label class="form-check-label" for="radio_button1">
+                            Sports News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button7"
+                            value="8">
+                        <label class="form-check-label" for="radio_button2">
+                            Bollywood News
+                        </label><br><br>
+                        <textarea style="display:none;" name="selected_radio_button" id="selected_radio_button">1</textarea>
+                        <input class="btn btn-primary btn-lg" href="#" role="button" type="submit" onclick="typeWriter()" value="Get News">
+                    </form>
                 </div>
                 <br>
-                <p align='center'><a class="btn btn-primary btn-lg" href="#" role="button" onclick='typeWriter()'>Get News</a></p>
             </div>
         </div>
 
@@ -136,27 +124,52 @@
         <a href="https://github.com/aadhav-n1">@aadhav-n1</a>
     </div>
 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="..\/..\/assets\/js\/vendor\/jquery-slim.min.js"><\/script>')</script>
+    <!-- <script src="../../assets/js/vendor/popper.min.js"></script> -->
+    <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
     <script>
-        var i = 0;
-        var txt = document.getElementById("title").innerHTML; /* The text */
-        var speed = 50; /* The speed/duration of the effect in milliseconds */
-        document.getElementById("title").innerHTML = ""
-        function typeWriter() {
-            if (i < txt.length) {
-                document.getElementById("title").innerHTML += txt.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed);
-            }
+
+        function sleep(miliseconds) {
+            const currentTime = new Date().getTime();
+            while(currentTime + miliseconds >= new Date().getTime()){}
         }
+        
+        function typeWriter() {
+
+            // DISABLING THIS FOR NOW...
+
+            // console.log("called!");
+            let i = 0;
+            let txt = document.getElementById("title").textContent; /* The text */
+            let speed = 50; /* The speed/duration of the effect in milliseconds */
+            // document.getElementById("title").textContent = "";            
+            // sleep(2000);
+            // while(i < txt.length) {
+                // document.getElementById("title").textContent += txt[i];
+                // i++;
+                // sleep(speed);
+            // }
+            
+
+            
+            let elem = document.getElementById("selected_radio_button");
+            elem.textContent = Number(document.querySelector('input[name="radio_button"]:checked').value);
+            console.log(elem.textContent);
+
+        }
+
+
     </script>
 </body>
 
