@@ -7,8 +7,11 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def news_grabber(request):
+
     #Changes link based on input
-    #prompt = request.POST.get('text', 'default')
+    val = request.POST.get('selected_radio_button', '1')
+    val = int(val)
+
     link_dict = {
         1: ('https://in.reuters.com/finance', 'Business'),
         2: ('https://in.reuters.com/finance/markets', 'Market'),
@@ -18,8 +21,9 @@ def news_grabber(request):
         6: ('https://in.reuters.com/news/technology', 'Technology'),
         7: ('https://in.reuters.com/news/sports', 'Sports'),
         8: ('https://in.reuters.com/news/entertainment/bollywood', 'Bollywood')
-        }
-    my_url = link_dict[2][0]
+    }
+
+    my_url = link_dict[val][0]
 
     #Opens connection
     uClient = uReq(my_url)
@@ -38,7 +42,7 @@ def news_grabber(request):
 
     # #Saving file
     now = datetime.datetime.now()
-    titlename = link_dict[2][1] + " News for "+ now.strftime('%A, %d %B %Y')
+    titlename = link_dict[val][1] + " News for "+ now.strftime('%A, %d %B %Y')
     # f = open(csv_filename, 'w')
 
     for container in containers:
@@ -73,8 +77,18 @@ def news_grabber(request):
     news_4 = content_list[3]
     news_5 = content_list[4]
 
-    return_data_title={'news_1_title':news_1_title, 'news_2_title':news_2_title, 'news_3_title':news_3_title,\
-         'news_4_title':news_4_title, 'news_5_title':news_5_title, \
-             'news_1':news_1, 'news_2':news_2, 'news_3':news_3,\
-         'news_4':news_4, 'news_5':news_5, 'title':titlename}
+    return_data_title = {
+        'news_1_title':news_1_title, 
+        'news_2_title':news_2_title, 
+        'news_3_title':news_3_title, 
+        'news_4_title':news_4_title, 
+        'news_5_title':news_5_title, 
+        'news_1':news_1, 
+        'news_2':news_2, 
+        'news_3':news_3, 
+        'news_4':news_4, 
+        'news_5':news_5, 
+        'title':titlename
+    }
+
     return render(request, 'news-display.html', return_data_title)
