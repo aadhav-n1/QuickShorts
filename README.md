@@ -6,7 +6,7 @@ Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Che
 - Open Command Prompt or Terminal and change directory to the folder where **manage.py** is present.
 - Run **python manage.py runserver** (Make sure you have Python 3.7.2 and Django installed.)
 - Open your browser and go to **127.0.0.1:8000**
-- Congratulations! TextCorrector has been setup successfully!
+- Congratulations! QuickShorts has been setup successfully!
 
 ## Features:
 - **Quick 30-second reads with no ads!**
