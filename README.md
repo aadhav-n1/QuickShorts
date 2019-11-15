@@ -17,4 +17,5 @@ Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Che
 - **"Download News"** option.
 
 #### Check out my other repositories at my GitHub profile: [@aadhav-n1](https://github.com/aadhav-n1)
+(https://www.codewars.com/users/aadhav-n1/badges/large)
 #### Top contributors: [@sarthakjain95](https://github.com/sarthakjain95)
