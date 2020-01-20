@@ -1,10 +1,12 @@
 # QuickShorts
 Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more using your tool! **Quick 30-second reads with no ads!**
 
-## Usage Instructions:
-- Download **_master_** branch of the repository from [here.](https://github.com/aadhav-n1/TextCorrector/archive/master.zip)
-- Open Command Prompt or Terminal and change directory to the folder where **manage.py** is present.
-- Run **python manage.py runserver** (Make sure you have Python 3.7.2 and Django installed.)
+## Setup:
+- Install python virtual environment: `pip install virtualenv`.
+- Navigate to project root folder and run: `virtualenv venv`.
+- Run `. /venv/bin/activate` on Linux or `venv\Scripts\activate` on Windows.
+- Then install the dependencies: `pip install -r QuickShorts/requirements.txt`.
+- Navigate to project folder and run: `python manage.py runserver`.
 - Open your browser and go to **127.0.0.1:8000**
 - Congratulations! QuickShorts has been setup successfully!
 

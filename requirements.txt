@@ -1,0 +1,2 @@
+beautifulsoup4==4.8.2
+django>=3.0.2<3.0.9
