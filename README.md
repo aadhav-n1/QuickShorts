@@ -13,11 +13,11 @@
 ![Python Version](https://img.shields.io/badge/Python%20Version-3.7-informational)
 
 
-**Update (12 February 2020): The project is still active and the desktop application is a WIP (Work-In-Progress). Hope to see your support till then!**
+**:mega: Update (12 February 2020): The project is still active and the desktop application is a WIP (Work-In-Progress). Hope to see your support till then!**
 
 Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more using your tool! **Quick 30-second reads with no ads!**
 
-## Setup:
+## :gear: Setup:
 - Install python virtual environment: `pip install virtualenv`.
 - Navigate to project root folder and run: `virtualenv venv`.
 - Run `. /venv/bin/activate` on Linux or `venv\Scripts\activate` on Windows.
@@ -26,18 +26,18 @@ Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Che
 - Open your browser and go to **127.0.0.1:8000**
 - Congratulations! QuickShorts has been setup successfully!
 
-## Features:
+## :page_with_curl: Features:
 - **Quick 30-second reads with no ads!**
 - Easy-to-use interface, loads fast! 
 - Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more easily!
 
-## Coming Soon:
+## :soon: Coming Soon:
 - **Desktop Application (in progress)**
 - **Download News! (TBA with launch of desktop application)**
 
-### Check out my other repositories at my GitHub profile: [@aadhav-n1](https://github.com/aadhav-n1)
+### :link: Check out my other repositories at my GitHub profile: [@aadhav-n1](https://github.com/aadhav-n1)
 
-## Want to get featured here? Contribute and be a part of the project!
+## :medal_sports: Want to get featured here? Contribute and be a part of the project!
 ### Top contributors: 
 
 - [@sarthakjain95](https://github.com/sarthakjain95)
