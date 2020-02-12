@@ -1,5 +1,16 @@
 ![QuickShorts](https://repository-images.githubusercontent.com/207124735/537c2700-3b96-11ea-845c-5dc973bb8b9c)
 # QuickShorts
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+[![Commits](https://badgen.net/github/commits/aadhav-n1/QuickShorts)](https://github.com/aadhav-n1/QuickShorts/commits/master)
+[![Latest Commit](https://badgen.net/github/last-commit/aadhav-n1/QuickShorts)](https://github.com/aadhav-n1/QuickShorts/commits/master)
+[![Issues](https://badgen.net/github/issues/aadhav-n1/QuickShorts)](https://GitHub.com/aadhav-n1/QuickShorts/issues/)
+[![PRs Welcome](https://badgen.net/github/prs/aadhav-n1/QuickShorts)](https://GitHub.com/aadhav-n1/QuickShorts/pull/)
+[![GitHub pull-requests closed](https://badgen.net/github/closed-prs/aadhav-n1/QuickShorts)](https://GitHub.com/aadhav-n1/QuickShorts/pull/)
+![Python Version](https://img.shields.io/badge/Python%20Version-3.7-informational)
+
+
 Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more using your tool! **Quick 30-second reads with no ads!**
 
 ## Setup:
