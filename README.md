@@ -1,3 +1,4 @@
+![QuickShorts](https://repository-images.githubusercontent.com/207124735/537c2700-3b96-11ea-845c-5dc973bb8b9c)
 # QuickShorts
 Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more using your tool! **Quick 30-second reads with no ads!**
 
