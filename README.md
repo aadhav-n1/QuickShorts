@@ -13,7 +13,16 @@
 ![Python Version](https://img.shields.io/badge/Python%20Version-3.7-informational)
 
 
-**:mega: Update (12 February 2020): The project is still active and the desktop application is a WIP (Work-In-Progress). Hope to see your support till then!**
+# :rocket: Releases
+
+**Download for Linux here: [Download Linux release (alpha)](https://github.com/aadhav-n1/QuickShorts/releases/download/v1.0.a/QuickShorts-v1.0.a-Linux)**
+
+**Download for Windows here: [Download Windows release (alpha)](https://github.com/aadhav-n1/QuickShorts/releases/download/v1.0.a/QuickShorts-v1.0.a-Windows.exe)**
+
+### **:mega: Update (12 February 2020): The project is still active and the desktop application is a WIP (Work-In-Progress). Hope to see your support till then!**
+
+
+
 
 Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more using your tool! **Quick 30-second reads with no ads!**
 
