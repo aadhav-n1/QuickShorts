@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>QuickShorts- Your on-the-go news provider!</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="/eel.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand mx-auto" href="#" id="title">Check your {{title}}</a>
+    </nav>
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-5 mx-auto" align="center">Check news instantly! Use QuickShorts!</h1>
+                <h4 align="center">Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more using our tool! Quick 30-second reads with no ads!</h4>
+                <div class="container" alignment='center'>
+                    <form id="form" action=''  method="POST" align="center">
+                        <!-- CSRF token for security-->
+                        
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button1"
+                            value="1">
+                        <label class="form-check-label" for="radio_button1">
+                            Business News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button2"
+                            value="2">
+                        <label class="form-check-label" for="radio_button2">
+                            Market News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button3"
+                            value="3">
+                        <label class="form-check-label" for="radio_button1">
+                            India News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button4"
+                            value="4">
+                        <label class="form-check-label" for="radio_button2">
+                            South Asia News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button5"
+                            value="5">
+                        <label class="form-check-label" for="radio_button1">
+                            World News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button6"
+                            value="6">
+                        <label class="form-check-label" for="radio_button2">
+                            Technology News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button7"
+                            value="7">
+                        <label class="form-check-label" for="radio_button1">
+                            Sports News
+                        </label><br>
+                        <input class="form-check-input" type="radio" name="radio_button" id="radio_button7"
+                            value="8">
+                        <label class="form-check-label" for="radio_button2">
+                            Bollywood News
+                        </label><br><br>
+                        <textarea style="display:none;" name="selected_radio_button" id="selected_radio_button">1</textarea>
+                        <input id="render-button" class="btn btn-primary btn-lg" href="#" role="button" type="button" onclick="render()" value="Get News">
+                    </form>
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="col">
+                <div class="row-md-4">
+                    <h2 id="news_1_title">1. {{news_1_title}} </h2>
+                    <p id="news1">{{news_1}}</p>
+                </div>
+                <div class="row-md-4">
+                    <h2 id="news_2_title">2. {{news_2_title}} </h2>
+                    <p id="news2">{{news_2}}</p>
+                </div>
+                <div class="row-md-4">
+                    <h2 id="news_3_title">3. {{news_3_title}} </h2>
+                    <p id="news3">{{news_3}}</p>
+                </div>
+
+                <div class="row-md-4">
+                    <h2 id="news_4_title">4. {{news_4_title}} </h2>
+                    <p id="news4">{{news_4}}</p>
+
+                </div>
+
+                <div class="row-md-4">
+                    <h2 id="news_5_title">5. {{news_5_title}} </h2>
+                    <p id="news5">{{news_5}}</p>
+                </div>
+
+            </div>
+
+            <input id="render-button" class="btn btn-primary btn-lg" href="#" role="button" type="button" onclick="#" value="Download News!" align="center">
+
+            <hr>
+
+        </div> <!-- /container -->
+
+
+    </main>
+
+    <div class="footer-copyright text-center py-3">Made by Aadhav. Check out my profile:
+        <a href="https://github.com/aadhav-n1">@aadhav-n1</a>
+    </div>
+    <div class="footer-copyright text-center py-3">Contributed by Sarthak Jain. Check out his profile:
+        <a href="https://github.com/sarthakjain95">@sarthakjain95</a>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="..\/..\/assets\/js\/vendor\/jquery-slim.min.js"><\/script>')</script>
+    <!-- <script src="../../assets/js/vendor/popper.min.js"></script> -->
+    <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script>
+
+        function sleep(miliseconds) {
+            const currentTime = new Date().getTime();
+            while(currentTime + miliseconds >= new Date().getTime()){}
+        }
+        
+        function typeWriter() {
+
+            // DISABLING THIS FOR NOW...
+
+            // console.log("called!");
+            let i = 0;
+            let txt = document.getElementById("title").textContent; /* The text */
+            let speed = 50; /* The speed/duration of the effect in milliseconds */
+            // document.getElementById("title").textContent = "";            
+            // sleep(2000);
+            // while(i < txt.length) {
+                // document.getElementById("title").textContent += txt[i];
+                // i++;
+                // sleep(speed);
+            // }
+            
+
+            
+            let elem = document.getElementById("selected_radio_button");
+            elem.textContent = Number(document.querySelector('input[name="radio_button"]:checked').value);
+            console.log(elem.textContent);
+
+        }
+
+
+    </script>
+    <script type="text/javascript" src="parse_data.js"></script>
+</body>
+
+</html>
