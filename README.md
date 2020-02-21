@@ -15,7 +15,7 @@
 
 # :rocket: Releases
 
-**Download for Linux here: [Download Linux release (alpha)](https://github.com/aadhav-n1/QuickShorts/releases/download/v1.0.a/QuickShorts-v1.0.a-Linux)**
+**Download for Linux here: [Download Linux release (v1.0.0)](https://github.com/aadhav-n1/QuickShorts/releases/download/v1.0.0/QuickShorts-v1.0.0-Linux)**
 
 **Download for Windows here: [Download Windows release (alpha)](https://github.com/aadhav-n1/QuickShorts/releases/download/v1.0.a/QuickShorts-v1.0.a-Windows.exe)**
 
