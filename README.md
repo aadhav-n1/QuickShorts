@@ -4,7 +4,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 ![Active](https://img.shields.io/badge/Active-Yes-006d5b)
-![Desktop Application](https://img.shields.io/badge/Desktop%20Application-Coming%20Soon-0066ff)
+![Desktop Application](https://img.shields.io/badge/Desktop%20Application-Launched-006d5b)
 [![Commits](https://badgen.net/github/commits/aadhav-n1/QuickShorts)](https://github.com/aadhav-n1/QuickShorts/commits/master)
 [![Latest Commit](https://badgen.net/github/last-commit/aadhav-n1/QuickShorts)](https://github.com/aadhav-n1/QuickShorts/commits/master)
 [![Issues](https://badgen.net/github/issues/aadhav-n1/QuickShorts)](https://GitHub.com/aadhav-n1/QuickShorts/issues/)
@@ -45,7 +45,7 @@ Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Che
 
 
 ## :soon: Coming Soon:
-- **Desktop Application (in progress)**
+- **Desktop Application ([Download Here!](https://github.com/aadhav-n1/QuickShorts/#rocket-releases))**
 - **Download News! (TBA with launch of desktop application)**
 
 ### :link: Check out my other repositories at my GitHub profile: [@aadhav-n1](https://github.com/aadhav-n1)
