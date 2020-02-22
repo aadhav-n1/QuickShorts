@@ -38,7 +38,11 @@ Commuting and stuck in the traffic? Returning after your exhaustive 9-5 job? Che
 ## :page_with_curl: Features:
 - **Quick 30-second reads with no ads!**
 - Easy-to-use interface, loads fast! 
-- Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more easily!
+- Check the latest updates on Nation, Market, Business, Bollywood, Sports and much more easily.
+
+## :camera_flash: Screenshots:
+![quickshorts-preview](https://user-images.githubusercontent.com/53528139/75094076-b3a72400-55ad-11ea-9401-97e1a91fbaa9.png)
+
 
 ## :soon: Coming Soon:
 - **Desktop Application (in progress)**
